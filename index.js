@@ -1,3 +1,6 @@
+let mix = require('laravel-mix');
+let webpack = require('webpack');
+
 class Pluton {
     register(path) {
         this.path = path;
