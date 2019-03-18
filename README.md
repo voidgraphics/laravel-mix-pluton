@@ -19,5 +19,5 @@ In your `webpack.mix.js` file:
 ```js
 require('laravel-mix-pluton');
 
-mix.pluton('resources/js/paths');
+mix.pluton('resources/js/parts');
 ```
