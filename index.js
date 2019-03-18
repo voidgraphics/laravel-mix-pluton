@@ -7,8 +7,9 @@ class Pluton {
     }
 
     webpackPlugins() {
+        const rootPath = Mix.paths.root.bind(Mix.paths);
         return new webpack.DefinePlugin({
-            PLUTON_PATH: JSON.stringify(__dirname + '/' + this.path)
+            PLUTON_PATH: JSON.stringify(rootPath(this.path))
         });
     }
 }
