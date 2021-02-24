@@ -8,7 +8,7 @@ class Pluton {
     }
 
     dependencies() {
-        return ['whitecube-pluton', '@babel/plugin-proposal-class-properties'];
+        return ['@whitecube/pluton', '@babel/plugin-proposal-class-properties'];
     }
 
     webpackPlugins() {
